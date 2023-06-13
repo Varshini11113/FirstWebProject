@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #111111;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+nav{
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav li a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+nav li a: hover{
+    color: #888;
+}
+
+.home h1{
+    text-transform: uppercase;
+}
+
+.home__content{
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    text-align: center;
+}
+
+.home__content h1 {
+    color: black;
+}
+.home__content h2 {
+    font-weight: 300;
+    margin-bottom: 15px;
+    fonr-size: 38px;
+    color: black;
+    text-align: left;
+}
+
+.abtme_content{
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    color: #111111;
+    line-height: 25px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.contact{
+    background-color: rgba(0,0,0,0.5);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact__form{
+    padding: 20px;
+    text-align: center;
+}
+
+.contact__form input{
+    border; 1px solid #dfdfdf;
+    padding: 10px;
+    width: 50%;
+    border-radius: 15px;
+    font-size: 20px;  
+    margin-bottom: 10px;  
+}
+
+.contact h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.contact__form button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: teal;
+    text-align: center;
+    font-weight: 40px;
+    cursor: pointer;
+    border: none;
+}
+
+footer{
+    background: #111;
+    text-align: center;
+    color: #fff;
+    text-size: 30px;
+    padding: 20px;
+}
